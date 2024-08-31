@@ -6,24 +6,24 @@ import { HttpClient, HttpRequest, HttpResponse } from '@angular/common/http';
 })
 export class LoginService {
   forgetPassword(formData: FormData) {
-    return this.http.post('https://takeoff-pavan.herokuapp.com/forgetPassword',formData)
+    return this.http.post('https://take-app-4afe487d41cd.herokuapp.com/forgetPassword',formData)
   }
   checkPasswordOTP(formData: FormData) {
-    return this.http.post('https://takeoff-pavan.herokuapp.com/checkPasswordOTP',formData)
+    return this.http.post('https://take-app-4afe487d41cd.herokuapp.com/checkPasswordOTP',formData)
   }
   generateMailPasscode(formData: FormData) {
-    return this.http.post('https://takeoff-pavan.herokuapp.com/generateMailPasscode',formData)
+    return this.http.post('https://take-app-4afe487d41cd.herokuapp.com/generateMailPasscode',formData)
   }
   getLoginDetails() {
-    return this.http.get('https://takeoff-pavan.herokuapp.com/getLoginDetails')
+    return this.http.get('https://take-app-4afe487d41cd.herokuapp.com/getLoginDetails')
   }
 
   constructor(private http: HttpClient) { }
 
 login(formData: FormData)
 {
- // return this.http.post( 'https://takeoff-pavan.herokuapp.com/login',formData );
-  return this.http.post('https://takeoff-pavan.herokuapp.com/login',formData)
+ // return this.http.post( 'https://take-app-4afe487d41cd.herokuapp.com/login',formData );
+  return this.http.post('https://take-app-4afe487d41cd.herokuapp.com/login',formData)
 }
 
 }

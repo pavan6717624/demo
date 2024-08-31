@@ -102,7 +102,7 @@ export class HomeComponent implements OnInit {
 
 
   scheduleService(formData: FormData) {
-    return this.http.post('https://takeoff-pavan.herokuapp.com/scheduleInterview',formData);
+    return this.http.post('https://take-app-4afe487d41cd.herokuapp.com/scheduleInterview',formData);
   }
 
 }

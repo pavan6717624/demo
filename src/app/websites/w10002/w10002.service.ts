@@ -10,7 +10,7 @@ export class W10002Service {
   constructor(private http: HttpClient) { }
 
   payment(order: OrderDetails) {
-    return this.http.post('https://takeoff-pavan.herokuapp.com/payment',order);
+    return this.http.post('https://take-app-4afe487d41cd.herokuapp.com/payment',order);
   }
   
 }
