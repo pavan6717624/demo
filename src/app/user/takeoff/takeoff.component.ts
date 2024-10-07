@@ -479,7 +479,7 @@ vendorListLoading=true;
     }
 
 
-    this.getNotification();
+    //this.getNotification();
  
 
     var loginButton = window.document.getElementById("loginButton")

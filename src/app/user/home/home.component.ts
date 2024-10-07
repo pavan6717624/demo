@@ -82,7 +82,7 @@ export class HomeComponent implements OnInit {
       dropDownButton.hidden=true;
     }
     
-    this.getNotification();
+    //this.getNotification();
    
     var uris=["takeoff","complimentary","redeemable","discount","daily","limited","onetimeoffers"]
     var uri=this.router.url;
